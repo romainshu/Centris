@@ -1,0 +1,30 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+.env/
+
+# --- Playwright ---
+playwright/.auth/
+
+# --- Output data (large, machine-generated) ---
+centris_market_data.csv
+*.csv
+
+# --- OS noise ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- IDE / editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
